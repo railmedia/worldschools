@@ -1,0 +1,16 @@
+<div class="wpr-form-con-row">
+  <div class="wpr-form-con-col">
+    <div class="contactform-consultancy-title">Nr. of Students</div>
+    <div class="contactform-consultancy-subtitle">How many students would you like to enrol?</div>
+  </div>
+  <div class="wpr-form-con-col">
+    <div class="wpr-counter" data-unit="Student|Students">
+      [text nrstudents "1"]
+    </div>
+  </div>
+</div>
+
+<!--
+The wrapper needs to have the class wpr-counter and the data-unit parameter representing the object that is counted. The value of the data-unit param needs to be splitted into <singular_value>|<plural_value> and separated by a |
+The shortcode used needs to always be [text] with its attributes and the default value of "1". Otherwise the system is set to convert any string to 0 integer value.
+-->
