@@ -1,0 +1,33 @@
+<div class="wpr-form-con-row no-margin">
+  <div class="wpr-form-con-col">
+    <div class="contactform-consultancy-title">Student</div>
+    <div class="contactform-consultancy-subtitle">Details about the student</div>
+  </div>
+  <div class="wpr-form-con-col">
+    [text firstnamestudent placeholder "Firstname"]
+    [text lastnamestudent placeholder "Lastname"]
+  </div>
+</div>
+
+<div class="wpr-form-con-row no-margin">
+  <div class="wpr-form-con-col"></div>
+  <div class="wpr-form-con-col">
+    [text brithdate placeholder "Birthdate"]
+    [text nationalitystudent placeholder "Nationality"]
+  </div>
+</div>
+
+<div class="wpr-form-con-row">
+  <div class="wpr-form-con-col"></div>
+  <div class="wpr-form-con-col">
+    [text locationstudent placeholder "Current Location"]
+    [text specialneeds placeholder "Special Needs (such as ADHD, Dislexia, etc)"]
+  </div>
+</div>
+
+<!--
+Fields which need to be grouped on multiple rows need to follow the above pattern.
+Please note that on the second row, the first col <div> is empty, meaning that the fields correspond (visually) to the first row.
+An optional class no-margin can be set on the wpr-form-con-row fields to remove the bottom margin of the rows, bringing it closer together, making the impression that they belong to one another.
+Note that the last row doesn't contain the no-margin class. This marks the end of the fieldset
+-->
